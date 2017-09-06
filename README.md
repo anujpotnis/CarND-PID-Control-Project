@@ -3,6 +3,13 @@ Self-Driving Car Engineer Nanodegree Program
 
 ---
 
+## Project Readme
+
+The PID Controller was hand-tuned. This helped get a better intuition to how each of the Kp, Ki and Kd play a role in controlling the car.
+* Kp - Increased if the car response was too sluggish
+* Ki - Increased if it was observed that the car has a drift. In this case Ki was not used.
+* Kd - Increased if the car was oscillating too much.
+
 ## Dependencies
 
 * cmake >= 3.5
